@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    background-color: white;
+}
+td {
+    padding: 10px;
+    margin-left: 20px;
+}
+tr{
+    padding: 10px;
+}
+
