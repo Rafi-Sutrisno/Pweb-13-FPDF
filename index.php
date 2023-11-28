@@ -19,11 +19,14 @@ $result = mysqli_query($mysqli, "SELECT * FROM siswa ORDER BY id DESC");
 	<div class="container d-flex flex-column">
 		<h2 class="" style="color: #1C0F13;">The Bombardment</h2>
 
-		<p>
+		<div class="mt-4 mb-4 d-flex justify-content-around" style="">
 			<a href="add.php">
 				<button class="btn btn-dark" style="">Add New Data</button>
 			</a>
-		</p>
+			<a href="printPDF.php" class="">
+				<button class="btn btn-dark">Download PDF</button>
+			</a>
+		</div>
 		<table width='100%' border=0 style="background-color: #B7CECE; border: none; border-radius: 25px;" class="text-center overflow-hidden">
 			<tr bgcolor='#6E7E85' class="">
 				<td><strong>Photo</strong></td>
@@ -46,6 +49,5 @@ $result = mysqli_query($mysqli, "SELECT * FROM siswa ORDER BY id DESC");
 			?>
 		</table>
 	</div>
-	
 </body>
 </html>
